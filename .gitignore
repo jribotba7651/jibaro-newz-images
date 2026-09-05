@@ -1,0 +1,19 @@
+# dependencias
+/node_modules
+
+# build de Next
+/.next
+/out
+
+# entorno (nunca commitear credenciales)
+.env
+.env*.local
+
+# tipos autogenerados por Next
+next-env.d.ts
+
+# misc
+*.tsbuildinfo
+/coverage
+.DS_Store
+npm-debug.log*
