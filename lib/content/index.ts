@@ -15,3 +15,9 @@ export type {
 export { SIGN_PROFILES, ZODIAC_ORDER } from "./profiles";
 export { summarizeSky, signAspect } from "./sky";
 export { generateHoroscope, generateHoroscopeSet } from "./horoscope";
+export {
+  SIGN_SLUGS,
+  ALL_SLUGS,
+  signToSlug,
+  slugToSign,
+} from "./slugs";
