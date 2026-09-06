@@ -1,4 +1,4 @@
-# CLAUDE.md — Motor de astrología para Jíbaro Newz
+# CLAUDE.md — Motor de astrología para Tarot Boricua
 
 > **Estado del documento:** plan reconstruido a partir de la carta de diseño de Juan
 > (no del plan original de seis etapas, que no llegó). La arquitectura y las decisiones
@@ -12,7 +12,7 @@
 
 ## 0. Qué es esto
 
-Motor de astrología a nivel de signo para el newsletter **Jíbaro Newz**. Calcula posiciones
+Motor de astrología a nivel de signo para el newsletter **Tarot Boricua**. Calcula posiciones
 planetarias, fase lunar y nodos lunares para una fecha dada, genera contenido de horóscopo
 en la voz del proyecto, lo persiste, y lo publica al newsletter (Beehiiv) con imágenes OG
 nativas para compartir en redes.

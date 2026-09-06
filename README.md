@@ -1,6 +1,6 @@
-# Jíbaro Newz — Motor de astrología
+# Tarot Boricua — Motor de astrología
 
-Motor de astrología a nivel de signo para el newsletter **Jíbaro Newz**. Calcula
+Motor de astrología a nivel de signo para el newsletter **Tarot Boricua**. Calcula
 posiciones planetarias, fase lunar y nodos lunares para una fecha dada, genera
 contenido de horóscopo en la voz del proyecto, lo persiste y lo publica al
 newsletter (Beehiiv) con imágenes OG nativas.

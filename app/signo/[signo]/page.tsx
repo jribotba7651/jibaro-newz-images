@@ -19,11 +19,11 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { signo } = await params;
   const sign = slugToSign(signo);
-  if (!sign) return { title: "Signo no encontrado · Jíbaro Newz" };
+  if (!sign) return { title: "Signo no encontrado · Tarot Boricua" };
 
   const h = generateHoroscope(buildChartSnapshot(new Date()), sign);
   const ogUrl = `/api/og?signo=${signo}&date=${todayISO()}`;
-  const title = `${sign} · Jíbaro Newz`;
+  const title = `${sign} · Tarot Boricua`;
   const description = h.body.slice(0, 180);
 
   return {
@@ -64,7 +64,7 @@ export default async function SignoPage({
 
       <header className="flex flex-col gap-2">
         <p className="text-xs uppercase tracking-[0.3em] text-amber-700">
-          Jíbaro Newz
+          Tarot Boricua
         </p>
         <h1 className="text-4xl font-semibold tracking-tight">{h.title}</h1>
         <p className="text-sm text-neutral-500">

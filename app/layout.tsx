@@ -5,9 +5,9 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Jíbaro Newz · Astrología",
+  title: "Tarot Boricua · Astrología",
   description:
-    "Motor de astrología a nivel de signo para el newsletter Jíbaro Newz.",
+    "Motor de astrología a nivel de signo para el newsletter Tarot Boricua.",
 };
 
 export default function RootLayout({

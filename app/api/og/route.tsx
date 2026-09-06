@@ -32,7 +32,7 @@ export function GET(req: NextRequest) {
   const fecha = snapshot.date.slice(0, 10);
 
   const sign = slugToSign(params.get("signo") ?? "");
-  const heading = sign ?? "Jíbaro Newz";
+  const heading = sign ?? "Tarot Boricua";
   const glyph = sign ? GLYPH[sign] : "✷";
   const focus = sign
     ? generateHoroscope(snapshot, sign).transitFocus
@@ -56,7 +56,7 @@ export function GET(req: NextRequest) {
       >
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
           <div style={{ fontSize: 30, letterSpacing: 6, color: "#c8b98f", textTransform: "uppercase" }}>
-            Jíbaro Newz
+            Tarot Boricua
           </div>
           <div style={{ fontSize: 30, color: "#9b93c4" }}>{fecha}</div>
         </div>

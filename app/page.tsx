@@ -28,7 +28,7 @@ export default function Home() {
     <main className="mx-auto flex min-h-screen max-w-3xl flex-col gap-10 px-6 py-16">
       <header className="flex flex-col gap-3">
         <p className="text-xs uppercase tracking-[0.3em] text-amber-700">
-          Jíbaro Newz
+          Tarot Boricua
         </p>
         <h1 className="text-4xl font-semibold tracking-tight">
           El cielo de hoy
