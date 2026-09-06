@@ -33,8 +33,8 @@ adelante sí.
 ## Estado
 
 - [x] Etapa 0: scaffold
-- [ ] Etapa 1: motor puro (`/lib/astro`)
-- [ ] Etapa 2: interpretación / contenido
-- [ ] Etapa 3: Supabase
-- [ ] Etapa 4: Beehiiv
-- [ ] Etapa 5: OG nativas + deploy a preview
+- [x] Etapa 1: motor puro (`/lib/astro`)
+- [x] Etapa 2: interpretación / contenido (`/lib/content`, registro en borrador)
+- [ ] Etapa 3: Supabase (pendiente de credenciales)
+- [ ] Etapa 4: Beehiiv (pendiente de credenciales)
+- [~] Etapa 5: OG nativas + rutas API hechas; deploy a preview pendiente de Vercel
